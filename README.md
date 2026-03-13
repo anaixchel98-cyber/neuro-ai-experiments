@@ -33,6 +33,13 @@ Pandas
 Matplotlib  
 Scikit-learn  
 
+## First Experiment
+
+Cognitive Load Detection using simulated EEG-like signals.
+
+Notebook:
+notebooks/cognitive_load_analysis.ipynb
+
 ## Future Work
 
 - EEG signal analysis
