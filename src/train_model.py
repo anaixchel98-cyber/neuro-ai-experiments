@@ -1,3 +1,8 @@
+"""
+Train machine learning model for cognitive load detection
+using simulated EEG-like signals.
+"""
+
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from load_data import load_eeg_data
