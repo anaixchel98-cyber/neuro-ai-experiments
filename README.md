@@ -14,16 +14,19 @@ This repository contains experiments and prototypes that apply machine learning 
 ## Project Structure
 
 data/
-Sample EEG or cognitive experiment datasets
+Sample EEG-like dataset
 
 notebooks/
-Exploratory data analysis and experiments
+Exploratory analysis and experimentation
 
 src/
 Core scripts for preprocessing, training models, and predictions
 
 visualizations/
-Plots and figures generated from experiments
+Plots generated during analysis
+
+app.py
+Interactive Streamlit dashboard for exploring signals
 
 ## Technologies
 
