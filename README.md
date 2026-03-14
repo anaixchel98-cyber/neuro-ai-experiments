@@ -22,13 +22,16 @@ notebooks/
 Exploratory analysis and experimentation
 
 src/
-Core scripts for preprocessing, training models, and predictions
+Core scripts for preprocessing and feature extraction
 
 visualizations/
 Plots generated during analysis
 
 app.py
 Interactive Streamlit dashboard for exploring signals
+
+requirements.txt
+Project dependencies
 
 ## Technologies
 
