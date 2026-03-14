@@ -56,7 +56,7 @@ Pipeline:
 5. Evaluate model performance  
 
 Notebook:
-notebooks/cognitive_load_analysis(2).ipynb
+notebooks/cognitive_load_analysis.ipynb
 
 ## Results
 # Signal Visualizations
