@@ -38,7 +38,7 @@ Scikit-learn
 Cognitive Load Detection using simulated EEG-like signals.
 
 Notebook:
-notebooks/cognitive_load_analysis2.ipynb
+notebooks/cognitive_load_analysis(2).ipynb
 
 ## Results
 
