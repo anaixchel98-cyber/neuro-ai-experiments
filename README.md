@@ -57,6 +57,10 @@ notebooks/cognitive_load_analysis(2).ipynb
 
 ![Distribution](visualizations/signal_distribution.png)
 
+### Frequency Spectrum (FFT)
+
+![FFT Spectrum](visualizations/fft_spectrum.png)
+
 ## Interactive Demo
 
 This repository also includes a small Streamlit dashboard for exploring simulated EEG-like signals and cognitive load levels.
