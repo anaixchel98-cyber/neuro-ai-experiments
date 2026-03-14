@@ -38,7 +38,23 @@ Scikit-learn
 Cognitive Load Detection using simulated EEG-like signals.
 
 Notebook:
-notebooks/cognitive_load_analysis.ipynb
+notebooks/cognitive_load_analysis2.ipynb
+
+## Results
+
+### Simulated EEG Signal Patterns
+
+![EEG Signals](visualizations/eeg_signals.png)
+
+### Average Signal Pattern by Cognitive Load
+
+![Average Signals](visualizations/average_signal_patterns.png)
+
+### Signal Distribution
+
+![Distribution](visualizations/signal_distribution.png)
+
+
 
 ## Future Work
 
