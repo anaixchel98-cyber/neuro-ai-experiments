@@ -2,14 +2,16 @@
 
 Exploring the intersection of artificial intelligence, neuroscience, and human cognition.
 
-This repository contains experiments and prototypes that apply machine learning techniques to simulated or open neuroscience datasets.
+This repository contains experiments and prototypes that apply machine learning techniques to simulated EEG-like brain signal data.
+
+The goal is to explore how AI models can help analyze neural patterns and detect cognitive states.
 
 ## Goals
 
 - Explore how AI can help analyze brain-related data
 - Experiment with cognitive load detection
-- Build visualizations of neural signals
-- Investigate AI models inspired by human cognition
+- Visualize neural signal patterns
+- Build small NeuroAI-inspired experiments
 
 ## Project Structure
 
@@ -36,15 +38,25 @@ Pandas
 Matplotlib  
 Scikit-learn  
 
-## First Experiment
+# First Experiment
 
-Cognitive Load Detection using simulated EEG-like signals.
+**Cognitive Load Detection using Simulated EEG Signals**
+
+This experiment simulates EEG-like neural signals and trains a machine learning model to classify cognitive load levels.
+
+Pipeline:
+
+1. Simulate neural signal features  
+2. Visualize signal patterns  
+3. Extract frequency features (FFT)  
+4. Train a Random Forest classifier  
+5. Evaluate model performance  
 
 Notebook:
 notebooks/cognitive_load_analysis(2).ipynb
 
 ## Results
-
+# Signal Visualizations
 ### Simulated EEG Signal Patterns
 
 ![EEG Signals](visualizations/eeg_signals.png)
@@ -57,9 +69,19 @@ notebooks/cognitive_load_analysis(2).ipynb
 
 ![Distribution](visualizations/signal_distribution.png)
 
+# Frequency Analysis
 ### Frequency Spectrum (FFT)
 
 ![FFT Spectrum](visualizations/fft_spectrum.png)
+
+# Model Evaluation
+
+### Confusion Matrix
+
+![Confusion Matrix](visualizations/confusion_matrix.png)
+
+The model successfully classifies simulated cognitive load levels using signal features and frequency-domain features.
+
 
 ## Interactive Demo
 
