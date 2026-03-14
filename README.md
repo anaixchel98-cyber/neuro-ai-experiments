@@ -54,8 +54,24 @@ notebooks/cognitive_load_analysis(2).ipynb
 
 ![Distribution](visualizations/signal_distribution.png)
 
+## Interactive Demo
 
+This repository also includes a small Streamlit dashboard for exploring simulated EEG-like signals and cognitive load levels.
 
+Run locally:
+
+`pip install -r requirements.txt`
+
+`streamlit run app.py`
+
+## Features
+
+- Simulated EEG-like signal generation
+- Cognitive load class exploration
+- Interactive sample visualization
+- Average signal pattern comparison
+- NeuroAI-inspired experiment workflow
+  
 ## Future Work
 
 - EEG signal analysis
